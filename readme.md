@@ -1,4 +1,4 @@
-# gulp-image-sans-guetzli
+# [gulp-image-sans-guetzli](https://www.npmjs.com/package/gulp-image-sans-guetzli)
 
 Optimize PNG, JPEG, GIF, SVG images with gulp task. Fork of original [gulp-image](https://npmjs.org/package/gulp-image), without the unsupported `guetzli` package.
 
