@@ -1,6 +1,6 @@
-# [gulp-image](https://npmjs.org/package/gulp-image)
+# gulp-image-sans-guetzli
 
-Optimize PNG, JPEG, GIF, SVG images with gulp task.
+Optimize PNG, JPEG, GIF, SVG images with gulp task. Fork of original [gulp-image](https://npmjs.org/package/gulp-image), without the unsupported `guetzli` package.
 
 [![Build Status](https://travis-ci.org/1000ch/gulp-image.svg?branch=master)](https://travis-ci.org/1000ch/gulp-image)
 [![NPM version](https://badge.fury.io/js/gulp-image.svg)](http://badge.fury.io/js/gulp-image)
@@ -48,7 +48,6 @@ gulp.task('image', function () {
       zopflipng: true,
       jpegRecompress: false,
       mozjpeg: true,
-      guetzli: false,
       gifsicle: true,
       svgo: true,
       concurrent: 10
@@ -68,7 +67,6 @@ options: {
   zopflipng: ['-y', '--lossy_8bit', '--lossy_transparent'],
   jpegRecompress: ['--strip', '--quality', 'medium', '--min', 40, '--max', 80],
   mozjpeg: ['-optimize', '-progressive'],
-  guetzli: ['--quality', 85],
   gifsicle: ['--optimize'],
   svgo: ['--enable', 'cleanupIDs', '--disable', 'convertColors']
 }
@@ -76,4 +74,4 @@ options: {
 
 ## License
 
-[MIT](https://1000ch.mit-license.org) © [Shogo Sensui](https://github.com/1000ch)
+[MIT](https://1000ch.mit-license.org) © Copyright [Shogo Sensui](https://github.com/1000ch) for original fork of [gulp-image](https://github.com/1000ch)

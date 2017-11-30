@@ -1,12 +1,12 @@
 {
-  "name": "gulp-image",
-  "version": "4.1.0",
-  "description": "Optimize PNG, JPG, GIF, SVG images with gulp task.",
-  "repository": "1000ch/gulp-image",
+  "name": "gulp-image-sans-guetzli",
+  "version": "4.1.1",
+  "description": "Optimize PNG, JPG, GIF, SVG images with gulp task. Fork of original gulp-image, without the unsupported guetzli package.",
+  "repository": "sodevious/gulp-image",
   "author": {
-    "name": "1000ch",
-    "email": "shogosensui@gmail.com",
-    "web": "https://github.com/1000ch"
+    "name": "sodevious",
+    "email": "sodevious.net@gmail.com",
+    "web": "https://github.com/sodevious"
   },
   "license": "MIT",
   "engines": {
@@ -16,13 +16,12 @@
     "test": "ava"
   },
   "bugs": {
-    "url": "https://github.com/1000ch/gulp-image/issues"
+    "url": "https://github.com/sodevious/gulp-image/issues"
   },
   "dependencies": {
     "exec-buffer": "^3.2.0",
     "filesize": "^3.5.0",
     "gifsicle": "^3.0.3",
-    "guetzli": "^1.0.1",
     "gulp-util": "^3.0.7",
     "is-gif": "^1.0.0",
     "is-jpg": "^1.0.0",
