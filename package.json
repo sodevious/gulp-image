@@ -1,6 +1,6 @@
 {
   "name": "gulp-image-sans-guetzli",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "Optimize PNG, JPG, GIF, SVG images with gulp task. Fork of original gulp-image, without the unsupported guetzli package.",
   "repository": "sodevious/gulp-image",
   "author": {
